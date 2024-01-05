@@ -1,0 +1,6 @@
+- id: run_rmfmt
+  name: Run rmfmt
+  description: Run rmfmt on Python files
+  entry: ./rmfmt.py
+  language: system
+  files: "^.*\\.py$"
