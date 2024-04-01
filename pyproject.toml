@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "rmfmt"
+version = "0.1.0"
+description = "The Python formatter to end the formatter wars"
+authors = ["blag <blag@users.noreply.github.com>"]
+license = "WTFPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.4.0"
